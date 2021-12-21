@@ -40,3 +40,26 @@
   .p-1 {
     padding: 1px;
   }
+
+  .row{
+    display: flex;
+  }
+
+  .col{
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+
+  input{
+    background-color: rgb(202, 202, 202);
+    border-radius: 10px;
+    border: none;
+    display: block;
+    margin: 5px;
+    padding: 10px;
+  }
+
+  input:focus{
+    outline: none;
+    border-bottom: 1px solid black;
+  }
